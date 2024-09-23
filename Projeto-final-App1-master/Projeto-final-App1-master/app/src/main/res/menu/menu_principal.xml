@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/icConsultar"
+        android:icon="@drawable/ic_dentelupa"
+        android:title="Consultar"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/icAbrirCadastro"
+        android:icon="@drawable/ic_dentemais"
+        android:title="Cadastrar"
+        android:onClick="abrirTelaCadastro"
+        app:showAsAction="ifRoom" />
+</menu>

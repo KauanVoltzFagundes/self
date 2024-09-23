@@ -1,5 +1,6 @@
 package com.example.projetoselfpizza
 
+import Item
 import android.content.Context
 import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
@@ -27,7 +28,7 @@ class ItemDatabaseHelper (context: Context) : SQLiteOpenHelper(context, DATABASE
     }
     fun updateTableWithItems(items: List<Item>) {
         val db = writableDatabase
-
+println("aqui")
         // Excluir a tabela existente
         val dropTableQuery = "DROP TABLE IF EXISTS $TABLE_NAME"
         db.execSQL(dropTableQuery)

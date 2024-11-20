@@ -33,7 +33,7 @@ println("aqui")
         val dropTableQuery = "DROP TABLE IF EXISTS $TABLE_NAME"
         db.execSQL(dropTableQuery)
 
-        // Criar a tabela novamente
+        // Criar a tabela novamen
         val createTableQuery = "CREATE TABLE $TABLE_NAME ($COLUMN_ID INTEGER PRIMARY KEY, $COLUMN_URL TEXT)"
         db.execSQL(createTableQuery)
 

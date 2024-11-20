@@ -86,7 +86,6 @@ class MainActivity : ComponentActivity() {
             }
 
             override fun onFailure(call: Call<List<Item>>, t: Throwable) {
-              println("aqui" + t)
                 setContent {
                     ProjetoSelfPizzaTheme {
                         primeiraTela(dbHelper)

@@ -12,6 +12,7 @@ interface ApiService {
 
 
 object RetrofitInstance {
+    //teste em alguma api
     private const val BASE_URL = "http://192.168.1.18:3000/"
 
     val api: ApiService by lazy {
